@@ -1,3 +1,6 @@
+"engines": {
+  "node": "18.x"
+}
 {
   "name": "guardrailsafe-server",
   "version": "1.0.0",
@@ -8,5 +11,8 @@
     "start": "node src/index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.22.1"
+  }
 }
